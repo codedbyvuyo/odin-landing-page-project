@@ -1,0 +1,164 @@
+body {
+    font-family: Roboto;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 6rem;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+nav a {
+    text-decoration: none;
+    color: #E5E7EB;   
+}
+
+.hero {
+    padding: 3rem 6rem;
+    display: flex;
+    background-color: #1F2937;
+}
+
+.hero-text,
+.image {
+    width: 500px;
+    height: 250px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #777;
+    color: #E5E7EB;
+}
+
+.hero-text {
+    flex-wrap: wrap;
+    padding-right: 4rem;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 4px 16px;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 5px;
+}
+
+.information {
+    padding: 3rem 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.information h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.box div {
+    border: 3px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.box {
+    flex-wrap: wrap;
+    width: 150px;
+}
+
+.quote {
+    padding: 3rem 6rem;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.container {
+    width: 700px;
+}
+
+.container  p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;  
+}
+
+.container span {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.call-to-action {
+    padding: 3rem 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-container {
+    display: flex;
+    padding: 1rem 5rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 800px;
+    border-radius: 12px;
+}
+
+.blue-container p {
+    color: #E5E7EB;
+}
+
+.blue-container button {
+    border: 2px solid #F9FAF8;
+    padding: 5px 15px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
